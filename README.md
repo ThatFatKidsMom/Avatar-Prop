@@ -24,7 +24,7 @@ A physbone and series of constraints control position of the prop. Contact track
 [VRLabs](https://github.com/VRLabs)  
 
 ## **License**
-[MIT](https://github.com/ThatFatKidsMom/Gesture-Tracker/blob/main/LICENSE)
+[MIT](https://github.com/ThatFatKidsMom/Avatar-Prop/blob/main/LICENSE)
 
 ## **Contact**
 If you need help with something you can message me on discord at ThatFatKidsMom#6462
