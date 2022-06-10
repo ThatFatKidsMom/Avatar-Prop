@@ -1,6 +1,6 @@
 # Avatar prop
 
-Derivative work using [contact trackers](https://github.com/VRLabs/Contact-Tracker) to create a prop remote players can grab, rotate, and drop in the world.
+Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker) to create a prop remote players can grab, rotate, and drop in the world. Requires Final IK.
 
 ## **Installation**
 [Video](https://youtu.be/cCnQug_tGXs)
