@@ -16,7 +16,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 >Ensure you are using the latest SDK and AV 3.0 Manager
 
 ## **How it works**
-A physbone and series of constraints control position of the prop. Contact trackers are placed on the hand of whoever grabs the prop and aimik references the contacts being tracked in order to orient the prop as if it were being held in the hand.
+A physbone and series of constraints control position of the prop. Contact trackers are placed on the ring and middle finger of the hand of whoever grabs the prop and aimik references the contacts being tracked in order to orient the prop as if it were being held in the hand.
 
 ## **Download**
 [Latest release](https://github.com/ThatFatKidsMom/Gesture-Tracker/releases/tag/1.0.0)
