@@ -5,7 +5,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 #### Requires Final IK.
 
 ## **Installation**
-[Video](https://youtu.be/cCnQug_tGXs)
+[Video](https://youtu.be/k1rVWK0o95A)
 
 - Drag the "Avatar prop" prefab into the heirarchy  
 - Right click on the prefab to unpack it and then drag it onto the base of your avatar  
