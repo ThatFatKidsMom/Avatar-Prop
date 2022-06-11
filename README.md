@@ -21,7 +21,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 
 ## **How it works**
 A physbone and series of constraints control position of the prop. Contact trackers are placed on the ring and middle finger of the hand of whoever grabs the prop and aimik references the contacts being tracked in order to orient the prop as if it were being held in the hand.
->That means the other person need to have a ring and middle finger contact on their hand
+>That means the other person needs to have a ring and middle finger contact on their hand
 
 ## **Download**
 [Latest release](https://github.com/ThatFatKidsMom/Avatar-Prop/releases/tag/1.0.0)
