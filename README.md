@@ -2,7 +2,6 @@
 [![Twitter URL](https://img.shields.io/twitter/follow/ThatFatKidsMom?style=social)](https://twitter.com/ThatFatKidsMom)
 
 Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker) to create a props on an avatar that remote players can grab, rotate, and drop in the world.
-#### Requires Final IK.
 
 ## **Installation**
 [Video](https://youtu.be/k1rVWK0o95A)
@@ -25,6 +24,8 @@ A physbone and series of constraints control position of the prop. Contact track
 
 ## **Download**
 [Latest release](https://github.com/ThatFatKidsMom/Avatar-Prop/releases/tag/1.0.0)
+[VRLabs FinalIK stub](https://github.com/VRLabs/Final-IK-Stub)
+[VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
 
 ## **Credit**
 [VRLabs](https://github.com/VRLabs)  
