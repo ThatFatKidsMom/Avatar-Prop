@@ -28,6 +28,9 @@ A physbone and series of constraints control position of the prop. Contact track
 
 ## **Credit**
 [VRLabs](https://github.com/VRLabs)  
+[Red](https://github.com/hfcRed)
+[Dreadrith](https://github.com/Dreadrith)
+little.sophia#1000
 
 ## **License**
 [MIT](https://github.com/ThatFatKidsMom/Avatar-Prop/blob/main/LICENSE)
