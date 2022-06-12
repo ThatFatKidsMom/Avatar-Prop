@@ -28,7 +28,7 @@ A physbone and series of constraints control position of the prop. Contact track
 
 ## **Credit**
 [VRLabs](https://github.com/VRLabs)  
-[Red](https://github.com/hfcRed)
+[Red](https://github.com/hfcRed)  
 [Dreadrith](https://github.com/Dreadrith)  
 little.sophia#1000
 
