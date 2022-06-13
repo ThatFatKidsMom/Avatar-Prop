@@ -16,7 +16,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 - Merge the provided FX controller with yours using the [VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
 - Set WD settings according to your animator  
 - Create a toggle in your menu to enable the system   
->Ensure you are using the latest SDK and AV 3.0 Manager
+>Ensure you are using the latest SDK, AV 3.0 Manager, and VRLabs Final IK stub
 
 ## **How it works**
 A physbone and series of constraints control position of the prop. Contact trackers are placed on the ring and middle finger of the hand of whoever grabs the prop and aimik references the contacts being tracked in order to orient the prop as if it were being held in the hand.
