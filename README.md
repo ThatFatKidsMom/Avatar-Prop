@@ -1,7 +1,7 @@
 # Avatar prop
 [![Twitter URL](https://img.shields.io/twitter/follow/ThatFatKidsMom?style=social)](https://twitter.com/ThatFatKidsMom)
 
-Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker) to create a props on an avatar that remote players can grab, rotate, and drop in the world.
+Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker) to create a prop on an avatar that remote players can grab, rotate, and drop in the world.
 
 ## **Installation**
 [Video](https://youtu.be/k1rVWK0o95A)
