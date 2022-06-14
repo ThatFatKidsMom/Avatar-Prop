@@ -6,6 +6,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 ## **Installation**
 [Video](https://youtu.be/k1rVWK0o95A)
 
+- Instal everything in the download tab
 - Drag the "Avatar prop" prefab into the heirarchy  
 - Right click on the prefab to unpack it and then drag it onto the base of your avatar  
 - Move the "Reset position" to the base of your avatar
