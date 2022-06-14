@@ -11,7 +11,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 - Move the "Reset position" to the base of your avatar
 - Enable the "object container" game object and place your desired prop into it
 - Position your prop to be grabbed at the same location of the handle of the example sword and oriented in the same way
-- Move the reset target to determine where you want the prop to be placed when initially enabled
+- Move the "Reset position" to determine where you want the prop to be placed when initially enabled
 - Hide the "object container"game object.
 - Merge the provided FX controller with yours using the [VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
 - Set WD settings according to your animator  
