@@ -15,7 +15,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 - Move the "Reset position" to determine where you want the prop to be placed when initially enabled
 - Hide the "object container"game object.
 - Merge the provided FX controller with yours using the [VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
-- Click the checkbox to the right of the "AvatarProp/Enable" parameter to sync it
+- Click the checkbox within the AV 3.0 manager to the right of the "AvatarProp/Enable" parameter to sync it
 - Set WD settings according to your animator  
 - Create a toggle in your menu to enable the system using the "AvatarProp/Enable" parameter  
 >Ensure you are using the latest SDK, AV 3.0 Manager, and VRLabs Final IK stub
