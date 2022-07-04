@@ -6,7 +6,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 ## **Installation**
 [Video](https://youtu.be/k1rVWK0o95A)
 
-- Import the latest VRChat SDK, prerequisites listed below, and the [latest release](https://github.com/ThatFatKidsMom/Avatar-Prop/releases/latest)
+- Import the latest VRChat SDK, prerequisites listed below, and most recent [release](https://github.com/ThatFatKidsMom/Avatar-Prop/releases/latest)
 - Drag the "Avatar prop" prefab into the heirarchy  
 - Right click on the prefab to unpack it and then drag it onto the base of your avatar  
 - Move the "Reset position" to the base of your avatar
