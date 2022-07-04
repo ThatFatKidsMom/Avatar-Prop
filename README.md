@@ -6,7 +6,7 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 ## **Installation**
 [Video](https://youtu.be/k1rVWK0o95A)
 
-- Install everything in the download tab
+- Import the latest VRChat SDK, prerequisites listed below, and the [latest release](https://github.com/ThatFatKidsMom/Avatar-Prop/releases/latest)
 - Drag the "Avatar prop" prefab into the heirarchy  
 - Right click on the prefab to unpack it and then drag it onto the base of your avatar  
 - Move the "Reset position" to the base of your avatar
@@ -18,14 +18,12 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 - Click the checkbox within the AV 3.0 manager to the right of the "AvatarProp/Enable" parameter to sync it
 - Set WD settings according to your animator  
 - Create a toggle in your menu to enable the system using the "AvatarProp/Enable" parameter  
->Ensure you are using the latest SDK, AV 3.0 Manager, and VRLabs Final IK stub
 
 ## **How it works**
 A physbone and series of constraints control position of the prop. Contact trackers are placed on the ring and middle finger of the hand of whoever grabs the prop and aimik references the contacts being tracked in order to orient the prop as if it were being held in the hand.
 >That means the other person needs to have a ring and middle finger contact on their hand
 
-## **Download**
-[Latest release](https://github.com/ThatFatKidsMom/Avatar-Prop/releases/tag/1.0.0)  
+## **Prerequisites**
 [VRLabs FinalIK stub](https://github.com/VRLabs/Final-IK-Stub)  
 [VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
 
