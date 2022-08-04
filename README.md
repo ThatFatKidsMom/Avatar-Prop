@@ -24,7 +24,7 @@ A physbone and series of constraints control position of the prop. Contact track
 >That means the other person needs to have a ring and middle finger contact on their hand
 
 ## **Prerequisites**
-[VRLabs FinalIK stub](https://github.com/VRLabs/Final-IK-Stub)  
+[VRLabs FinalIK stub](https://github.com/VRLabs/Final-IK-Stub) or Final IK  
 [VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
 
 ## **Credit**
