@@ -2763,9 +2763,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
     m_EventTreshold: 0
-  - m_ConditionMode: 2
+  - m_ConditionMode: 4
     m_ConditionEvent: AvatarProp/LeftHand
-    m_EventTreshold: 0
+    m_EventTreshold: 0.51
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1547183591203755385}
   m_Solo: 0
@@ -2902,9 +2902,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
     m_EventTreshold: 0
-  - m_ConditionMode: 1
+  - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/LeftHand
-    m_EventTreshold: 0
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6139700679367206186}
   m_Solo: 0
