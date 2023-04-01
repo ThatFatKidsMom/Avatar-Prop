@@ -1096,6 +1096,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 0
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.1
   radiusCurve:
     serializedVersion: 2
@@ -1166,7 +1169,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 1
   grabMovement: 1
   maxStretch: Infinity
   maxStretchCurve:
@@ -1176,6 +1186,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   isAnimated: 0
+  resetWhenDisabled: 0
   parameter: AvatarProp/Grabbing
   showGizmos: 1
   boneOpacity: 0.5
@@ -3333,7 +3344,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2661323638933555575}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
