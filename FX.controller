@@ -134,37 +134,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!206 &-7908785225996361118
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: BlendTree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f0709d940e0523d44ae65b94050ce3ed, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker.Point.Z+
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 1c3ed5f619159f6478b356c07af2e5b9, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker.Point.X+
-    m_Mirror: 0
-  m_BlendParameter: AvatarProp/Trackers/Ring/Z+
-  m_BlendParameterY: Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
 --- !u!1101 &-7803012192018140809
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -189,34 +158,6 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 0
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &-7342339341635711562
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AvatarProp/MiddleSync
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 8237389465582219119}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -287,22 +228,6 @@ BlendTree:
     m_DirectBlendParameter: AvatarProp/Trackers/Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -7908785225996361118}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: AvatarProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: -4370682475033258001}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: AvatarProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: 3227487243130051323}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
@@ -335,22 +260,6 @@ BlendTree:
     m_DirectBlendParameter: AvatarProp/Trackers/Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -662546285057767032}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: AvatarProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: -340010438444033097}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: AvatarProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: -2570401360418689121}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
@@ -376,22 +285,6 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: -8041947216289933660}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: AvatarProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 112167859702643931}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: AvatarProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: -4013236124103002521}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -563,7 +456,7 @@ AnimatorStateMachine:
     m_Position: {x: -80, y: 310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5365233028581110954}
-    m_Position: {x: -80, y: 370, z: 0}
+    m_Position: {x: -70, y: 370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2174537525556427709}
     m_Position: {x: 400, y: 390, z: 0}
@@ -614,34 +507,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
---- !u!1101 &-5911046298660836020
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AvatarProp/HandSync
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 8237389465582219119}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!206 &-5844588150201209406
 BlendTree:
   m_ObjectHideFlags: 1
@@ -682,23 +547,17 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/MiddleSync
-    m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/HandSync
-    m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/RingSync
+    m_ConditionEvent: AvatarProp/TrackersCheck
     m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Ring/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Hand/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Middle/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/LeftHand
     m_EventTreshold: 0.5
@@ -973,68 +832,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!206 &-4370682475033258001
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: BlendTree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: fbe595704a200e041a2cd95ad189b359, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker.Point.Z-
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9171fc610cbbec347922a8e6dfc37d38, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker.Point.X+
-    m_Mirror: 0
-  m_BlendParameter: AvatarProp/Trackers/Ring/Z-
-  m_BlendParameterY: Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
---- !u!206 &-4013236124103002521
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: BlendTree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 14d388535116e9043a9f079bc1eda753, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ed6aaf3647e87be4a884631941ada258, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Blend
-    m_Mirror: 0
-  m_BlendParameter: AvatarProp/Trackers/Middle/Z-
-  m_BlendParameterY: WorldProp/Trackers/Ring/Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
 --- !u!206 &-3830244666169260679
 BlendTree:
   m_ObjectHideFlags: 1
@@ -1108,7 +905,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8237389465582219119}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -1243,23 +1040,17 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/MiddleSync
+    m_ConditionEvent: AvatarProp/TrackersCheck
     m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/HandSync
-    m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/RingSync
-    m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Ring/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Hand/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Middle/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/LeftHand
     m_EventTreshold: 0.5
@@ -1311,34 +1102,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!1101 &-2063337251712261283
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AvatarProp/RingSync
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 8237389465582219119}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1101 &-2056104309683751526
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1373,23 +1136,17 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/MiddleSync
-    m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/HandSync
-    m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/RingSync
+    m_ConditionEvent: AvatarProp/TrackersCheck
     m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Ring/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Hand/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Middle/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 4
     m_ConditionEvent: AvatarProp/LeftHand
     m_EventTreshold: 0.51
@@ -1639,37 +1396,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 4
---- !u!206 &-662546285057767032
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: BlendTree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ed0394662e5198b4c9a9696ab1d8f3a5, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Ring/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6d73615b122859948b45d62835fb1454, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Ring/Blend
-    m_Mirror: 0
-  m_BlendParameter: AvatarProp/Trackers/Hand/Z+
-  m_BlendParameterY: WorldProp/Trackers/Ring/Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
 --- !u!206 &-463437072161286933
 BlendTree:
   m_ObjectHideFlags: 1
@@ -1696,37 +1422,6 @@ BlendTree:
     m_Mirror: 0
   m_BlendParameter: WorldProp/Trackers/Hand/X+
   m_BlendParameterY: Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
---- !u!206 &-340010438444033097
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: BlendTree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 419aef97a423a6b4a973e29a6c676870, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Ring/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ede31a99c901aff40a1b63de05ce1e68, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Ring/Blend
-    m_Mirror: 0
-  m_BlendParameter: AvatarProp/Trackers/Hand/Z-
-  m_BlendParameterY: WorldProp/Trackers/Ring/Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
@@ -1771,18 +1466,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/Trackers/Ring/Z+
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/Trackers/Ring/Z-
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: AvatarProp/Trackers/Ring/Prox
     m_Type: 1
     m_DefaultFloat: 0
@@ -1808,18 +1491,6 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: AvatarProp/Trackers/Hand/Y-
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/Trackers/Hand/Z+
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/Trackers/Hand/Z-
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -1855,18 +1526,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/Trackers/Middle/Z+
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/Trackers/Middle/Z-
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: AvatarProp/Trackers/Middle/Prox
     m_Type: 1
     m_DefaultFloat: 0
@@ -1880,24 +1539,6 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: AvatarProp/Enable
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/RingSync
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/HandSync
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AvatarProp/MiddleSync
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -1917,6 +1558,12 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - m_Name: AvatarProp/LeftHand
     m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: AvatarProp/TrackersCheck
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -1972,37 +1619,6 @@ BlendTree:
     m_Mirror: 0
   m_BlendParameter: WorldProp/Trackers/Middle/Y-
   m_BlendParameterY: Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
---- !u!206 &112167859702643931
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: BlendTree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f8b72d90ad4c4d142b54b5d116b1b2eb, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6d4b820c954f8de4b86abf6f3825b20d, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WorldProp/Trackers/Blend
-    m_Mirror: 0
-  m_BlendParameter: AvatarProp/Trackers/Middle/Z+
-  m_BlendParameterY: WorldProp/Trackers/Ring/Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
@@ -2211,10 +1827,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -6971269297179870707}
   - {fileID: -6785713758911342288}
-  - {fileID: -7342339341635711562}
   - {fileID: -3692865726817405058}
   - {fileID: 8473054044243637677}
-  - {fileID: -2063337251712261283}
   - {fileID: 2567793348174848737}
   - {fileID: 5233011090606082028}
   m_StateMachineBehaviours: []
@@ -2263,34 +1877,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!1101 &1934002078705740537
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AvatarProp/RingSync
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 8237389465582219119}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1102 &2174537525556427709
 AnimatorState:
   serializedVersion: 6
@@ -2356,7 +1942,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: AvatarProp/HandSync
+    m_ConditionEvent: AvatarProp/TrackersCheck
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
@@ -2384,23 +1970,17 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/MiddleSync
+    m_ConditionEvent: AvatarProp/TrackersCheck
     m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/HandSync
-    m_EventTreshold: 0.25
-  - m_ConditionMode: 1
-    m_ConditionEvent: AvatarProp/RingSync
-    m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Ring/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Hand/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 3
     m_ConditionEvent: AvatarProp/Trackers/Middle/Prox
-    m_EventTreshold: 0.5
+    m_EventTreshold: 0.57
   - m_ConditionMode: 4
     m_ConditionEvent: AvatarProp/LeftHand
     m_EventTreshold: 0.51
@@ -2600,7 +2180,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8237389465582219119}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -2821,7 +2401,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8237389465582219119}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -2929,9 +2509,7 @@ AnimatorState:
   - {fileID: -6713271654223629210}
   - {fileID: 8470674162849388338}
   - {fileID: 3380980461982899088}
-  - {fileID: -5911046298660836020}
   - {fileID: 6166122683485598979}
-  - {fileID: 1934002078705740537}
   - {fileID: 8840322267326908221}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
@@ -2965,7 +2543,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8237389465582219119}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -3142,7 +2720,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8237389465582219119}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -3170,7 +2748,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8237389465582219119}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -3249,7 +2827,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: AvatarProp/MiddleSync
+    m_ConditionEvent: AvatarProp/TrackersCheck
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: AvatarProp/Grabbing_IsGrabbed
