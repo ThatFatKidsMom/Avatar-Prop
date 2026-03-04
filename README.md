@@ -15,9 +15,9 @@ Derivative work of [contact trackers](https://github.com/VRLabs/Contact-Tracker)
 - Move the "Reset position" to determine where you want the prop to be placed when initially enabled
 - Hide the "object container"game object.
 - Merge the provided FX controller with yours using the [VRLabs Avatar 3.0 manager](https://github.com/VRLabs/Avatars-3.0-Manager)  
-- Click the checkbox within the AV 3.0 manager to the right of the "AvatarProp/Enable" parameter to sync it
+- Click the checkbox within the AV 3.0 manager to the right of "AvatarProp/Enable" under both "Expression Parameter" and "Synced" columns
 - Set WD settings according to your animator  
-- Create a toggle in your menu to enable the system using the "AvatarProp/Enable" parameter  
+- Create a toggle in your menu to enable the system using the "AvatarProp/Enable" parameter
 
 ## **How it works**
 A physbone and series of constraints control position of the prop. Contact trackers are placed on the ring and middle finger of the hand of whoever grabs the prop and aimik references the contacts being tracked in order to orient the prop as if it were being held in the hand.
